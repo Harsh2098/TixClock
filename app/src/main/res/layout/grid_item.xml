@@ -7,7 +7,7 @@
     android:padding="6dp">
 
     <TextView
-        android:id="@+id/tile_textView"
+        android:id="@+id/tileTextView"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:background="@drawable/square_box" />

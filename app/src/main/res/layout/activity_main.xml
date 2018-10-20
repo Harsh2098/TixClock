@@ -6,21 +6,20 @@
     android:orientation="vertical"
     android:padding="6dp"
     android:weightSum="9"
-    android:background="#FFFFFFFF">
+    android:background="#FFFFFF">
 
-    <GridView
-        android:id="@+id/tenHour_gridView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tenHourRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_marginEnd="100dp"
         android:layout_marginStart="100dp"
         android:layout_weight="1"
-        android:gravity="center"
-        android:numColumns="3" />
+        android:gravity="center"/>
 
-    <GridView
-        android:id="@+id/unitHour_gridView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/unitHourRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -28,11 +27,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="25dp"
         android:layout_weight="3"
-        android:gravity="center"
-        android:numColumns="3" />
+        android:gravity="center"/>
 
-    <GridView
-        android:id="@+id/tenMin_gridView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tenMinRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -40,11 +38,10 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="25dp"
         android:layout_weight="2"
-        android:gravity="center"
-        android:numColumns="3" />
+        android:gravity="center" />
 
-    <GridView
-        android:id="@+id/unitMin_gridView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/unitMinRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
@@ -52,7 +49,6 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="25dp"
         android:layout_weight="3"
-        android:gravity="center"
-        android:numColumns="3" />
+        android:gravity="center" />
 
 </LinearLayout>
